@@ -1,14 +1,15 @@
 import React from "react";
-const imgPru =
-  "https://img.freepik.com/vector-premium/logotipo-ep_853558-5353.jpg?w=996";
+
+const imgEPN = "https://daci.epn.edu.ec/images/inicio/logo_home_w.png";
 
 function Heading() {
   return (
     <header>
       <h1 contentEditable="false" spellCheck="false">
-        Subproceso 2: Molienda de Granos
+        ESCUELA POLITÉCNICA NACIONAL
       </h1>
-      <img className="imgPrueba" alt="EP" src={imgPru} />
+      <h2>Trabajo de integración Curricular</h2>
+      <img className="circle-img " alt="EP" src={imgEPN} />
     </header>
   );
 }
